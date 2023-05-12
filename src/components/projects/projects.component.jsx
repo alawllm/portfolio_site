@@ -2,9 +2,9 @@ import './projects.styles.scss'
 
 const Projects = () => {
     return (
-        <div className='projects-container'>
-            <h2>These are my projects</h2>
-            <div className="projects-container">
+        <div className='project-container'>
+            <h2 className="headers-site">These are my projects</h2>
+            <div className="projects-icons-container text-site">
                 Click Click Click
             </div>
         </div>
