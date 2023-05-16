@@ -4,12 +4,11 @@ const About = () => {
     return (
         <div className='gen-container' id="section1">
             <h1 className="headers-site">Hello!</h1>
-            <p className="text-site">Aspiring Frontend Developer</p>
-            <div className="text-site">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora unde corrupti error? Velit hic illo, nam quae eaque deserunt beatae, magnam ipsam voluptatum similique animi dolorem minima, asperiores quasi!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora unde corrupti error? Velit hic illo, nam quae eaque deserunt beatae, magnam ipsam voluptatum similique animi dolorem minima, asperiores quasi!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora unde corrupti error? Velit hic illo, nam quae eaque deserunt beatae, magnam ipsam voluptatum similique animi dolorem minima, asperiores quasi!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tempora unde corrupti error? Velit hic illo, nam quae eaque deserunt beatae, magnam ipsam voluptatum similique animi dolorem minima, asperiores quasi!</p>
+            <div className="text-site about-container">
+                <p>I am Ala, an aspiring Frontend Developer</p>
+                <p>blabla</p>
+                <p>blablabla</p>
+                <p>blablabla</p>
             </div>
         </div>
     )

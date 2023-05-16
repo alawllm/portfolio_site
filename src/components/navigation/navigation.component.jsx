@@ -5,7 +5,6 @@ import './navigation.styles.scss'
 
 
 const Navigation = () => {
-    //change nav color when scrolling
     const [color, setColor] = useState(false)
     const changeColor = () => {
         if (window.scrollY >= 90) {
