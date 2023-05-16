@@ -1,11 +1,10 @@
 .navigation {
     position: sticky;
-    margin-top: 0;
-    height: 60px;
+    top: 0;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(178, 222, 229);
     padding-left: 40px;
     padding-right: 40px;
     font-weight: 400;
@@ -16,9 +15,10 @@
         align-items: center;
 
         .nav-link {
+            color: rgb(57, 23, 72);
             padding: 10px 15px;
             cursor: pointer;
-            opacity: 0.8;
+            opacity: 0.7;
             text-decoration: none;
             position: relative;
 
@@ -32,11 +32,11 @@
                 height: 4px;
                 content: "";
                 position: absolute;
-                background-color: #74b49b;
+                background-color: #e5f4ea;
             }
 
             &::before {
-                width: 80%;
+                width: 100%;
                 bottom: 4px;
                 opacity: 0;
             }
@@ -48,4 +48,14 @@
             }
         }
     }
+}
+
+.navigation-static {
+    background-color: rgb(114, 180, 226);
+    transition: 300ms;
+}
+
+.navigation-scroll {
+    background-color: rgb(203, 224, 233);
+    transition: 300ms;
 }

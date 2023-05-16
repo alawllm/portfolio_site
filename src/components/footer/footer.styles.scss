@@ -6,21 +6,4 @@
     background-color: rgb(211, 238, 242);
     padding-left: 40px;
     padding-right: 40px;
-
-    .footer-links-container {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-
-        .footer-link {
-            padding: 10px 15px;
-            cursor: pointer;
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
-    }
 }

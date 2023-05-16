@@ -1,6 +1,7 @@
 .project-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-left: 40px;
     padding-right: 40px;
@@ -11,8 +12,29 @@
     background-color: rgb(255, 255, 255);
 }
 
-.projects-icons-container {
+.icons-projects-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 660px) {
+    .icons-projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.project-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(198, 198, 230);
+    margin: 30px;
+
     &:hover {
-        cursor: pointer;
+        transform: scale(1.15);
+        transition: 400ms;
     }
 }

@@ -3,9 +3,11 @@ import './projects.styles.scss'
 const Projects = () => {
     return (
         <div className='project-container' id='section2'>
-            <h2 className="headers-site">These are my projects</h2>
-            <div className="projects-icons-container text-site">
-                Click Click Click
+            <h2 className="headers-site">Projects</h2>
+            <div className='icons-projects-container'>
+                <div className='project-icon'>Project1</div>
+                <div className='project-icon'>Project2</div>
+                <div className='project-icon'>Project3</div>
             </div>
         </div>
     )
