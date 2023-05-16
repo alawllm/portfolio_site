@@ -2,7 +2,7 @@ import './contact.styles.scss'
 
 const Contact = () => {
     return (
-        <div className='gen-container'>
+        <div className='gen-container' id='section4'>
             <h3 className="headers-site">Contact me!</h3>
             <div className='contact-links text-site'>
                 <a href="">email</a>

@@ -11,8 +11,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 25%;
+  padding-right: 25%;
   padding-bottom: 20px;
   padding-top: 20px;
   margin-bottom: 15px;
@@ -27,12 +27,12 @@ a {
 
 .text-site {
   color: rgb(53, 87, 120);
-  font-size: clamp(1em, 1.2em, 2em);
+  font-size: clamp(1em, 1.4em, 2em);
 }
 
 .headers-site {
   color: rgb(11, 51, 90);
-  font-size: clamp(1em, 1em + 1.5vw, 2em);
+  font-size: clamp(1em, 1.7em + 1.5vw, 2em);
 }
 
 * {
