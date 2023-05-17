@@ -18,32 +18,31 @@ const Navigation = () => {
 
     return (
         <div className={color ? 'navigation navigation-scroll' : 'navigation navigation-static'}>
-            <p>portolio ala</p>
             <div className='nav-links-container'>
                 <Link className="nav-link" to="section1"
                     activeClass="active"
-                    spy={true}
-                    smooth={true}
+                    spy={false}
+                    smooth={false}
                     offset={- 50}
-                    duration={500}>About</Link>
+                >About</Link>
                 <Link className="nav-link" to="section2"
                     activeClass="active"
-                    spy={true}
+                    spy={false}
                     smooth={true}
                     offset={- 50}
-                    duration={500}>Projects</Link>
+                    duration={800}>Projects</Link>
                 <Link className="nav-link" to="section3"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={- 50}
-                    duration={500}>Skills</Link>
+                    duration={800}>Skills</Link>
                 <Link className="nav-link" to="section4"
                     activeClass="active"
                     spy={true}
                     smooth={true}
                     offset={- 50}
-                    duration={500}>Contact me!</Link>
+                    duration={800}>Contact me!</Link>
             </div>
         </div>
     )

@@ -4,7 +4,8 @@
     height: 50px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     padding-left: 40px;
     padding-right: 40px;
     font-weight: 400;
@@ -15,7 +16,7 @@
         align-items: center;
 
         .nav-link {
-            color: rgb(57, 23, 72);
+            color: #242325;
             padding: 10px 15px;
             cursor: pointer;
             opacity: 0.7;
@@ -51,11 +52,11 @@
 }
 
 .navigation-static {
-    background-color: rgb(113, 180, 229);
+    background-color: #7ed2d5;
     transition: 300ms;
 }
 
 .navigation-scroll {
-    background-color: rgb(196, 225, 238);
+    background-color: #e4e4e4;
     transition: 300ms;
 }

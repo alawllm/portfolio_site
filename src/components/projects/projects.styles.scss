@@ -10,7 +10,8 @@
     padding-top: 20px;
     margin-bottom: 15px;
     margin-top: 15px;
-    background-color: rgb(255, 255, 255);
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .icons-projects-container {
