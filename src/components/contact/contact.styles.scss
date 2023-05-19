@@ -18,10 +18,12 @@
     justify-content: space-between;
 }
 
-.container-section {
-    width: 30%;
-    margin-left: 50px;
-    margin-right: 50px;
+.container-section-narrow {
+    width: 300px;
+}
+
+.container-section-wide {
+    width: 500px;
 }
 
 @media only screen and (max-width: 660px) {
